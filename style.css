@@ -1,0 +1,50 @@
+.border {
+    border-top: 2px dashed rgb(205, 202, 202);
+    border-bottom: 2px dashed rgb(199, 196, 196);
+    margin-top: 100px !important;
+  }
+  
+  
+  .cardss {
+    color: rgb(24, 22, 22);
+    top: auto;
+    bottom: 40px !important;
+  }
+  
+  .ul-style {
+    list-style: none;
+    padding: 0px;
+    color: rgb(142, 140, 140);
+  }
+  .spinner {
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50%;
+    border: 5px solid rgba(5, 5, 5, 0.1);
+  
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .ul-style li {
+    margin-top: 10px;
+  }
+  
+  @media screen and (max-width: 76px) {
+    .cardss {
+      color: white;
+      top: 0;
+      bottom: 0;
+    }
+  
+    .border {
+      margin-top: 0px;
+      margin-bottom: 50px;
+    }
+  
+    .card-image
+    {
+      width: 100% !important;
+      height: 250px !important;
+    }
+  }
